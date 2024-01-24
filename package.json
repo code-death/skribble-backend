@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon skribble-api.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.8",
+    "@babel/register": "^7.23.7",
+    "body-parser": "^1.20.2",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.0",
+    "nodemon": "^3.0.2",
+    "socket.io": "^4.7.3"
+  },
+  "volta": {
+    "node": "16.19.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

@@ -1,0 +1,1552 @@
+{
+  "movies/tv_shows": [
+    {
+      "text": "Inception",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Stranger Things",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Casablanca",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Matrix",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Breaking Bad",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Avatar",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Godfather",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Friends",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Simpsons",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Jurassic Park",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Black Mirror",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Pulp Fiction",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Game of Thrones",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Shawshank Redemption",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Strive for greatness",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Eternal Sunshine of the Spotless Mind",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Dark Knight",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Memento",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Office",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Great Gatsby",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "La La Land",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Star Wars",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Harry Potter",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Walking Dead",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Sherlock",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Wonder Woman",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Big Bang Theory",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Crown",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Django Unchained",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Twilight Zone",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Coco",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Avengers",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Lion King",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Hateful Eight",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Simpsons",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Stranger Things",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Grand Budapest Hotel",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Shape of Water",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Witcher",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The X-Files",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Toy Story",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Westworld",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Whiplash",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Great Gatsby",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Shining",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Truman Show",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "V for Vendetta",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Zootopia",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Social Network",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Revenant",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Pursuit of Happyness",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Princess Bride",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Martian",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Lord of the Rings",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Handmaid's Tale",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Good Place",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Fault in Our Stars",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Fast and the Furious",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Fifth Element",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Flash",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Godfather",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Grand Budapest Hotel",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Green Mile",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Hunger Games",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Imitation Game",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Jungle Book",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The King's Speech",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Last Dance",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Lord of the Rings",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Matrix",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Nightmare Before Christmas",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Office",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Outsiders",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Prestige",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Queen's Gambit",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Shape of Water",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Shining",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Silence of the Lambs",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Simpsons",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Social Network",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Sound of music_artist",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Truman Show",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Twilight Zone",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Umbrella Academy",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Walking Dead",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Witcher",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Wizard of Oz",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The X-Files",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Yellow Submarine",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "The Young and the Restless",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "There's Something About Mary",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Thor",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Titanic",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "To Kill a Mockingbird",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Top Gun",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Toy Story",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Transformers",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Tropic Thunder",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Twilight",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Ugly Betty",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Unbreakable",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Up",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Usual Suspects",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "V for Vendetta",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Vikings",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Voyage of Time",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Wall-E",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "War and Peace",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "War Horse",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Water for Elephants",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Westworld",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "When Harry Met Sally",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Whiplash",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "White Chicks",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Who Framed Roger Rabbit",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Willy Wonka and the Chocolate Factory",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Wind River",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Wizard of Oz",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Wonder Woman",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "X-Men",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Yellow Submarine",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Yes Man",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Yesterday",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "You've Got Mail",
+      "category": "movies/tv_shows"
+    },
+    {
+      "text": "Zootopia",
+      "category": "movies/tv_shows"
+    }
+  ],
+  "music_artis": [
+    {
+      "text": "Beatles",
+      "category": "music_artist"
+    },
+    {
+      "text": "Mozart",
+      "category": "music_artist"
+    },
+    {
+      "text": "Beyoncé",
+      "category": "music_artist"
+    },
+    {
+      "text": "Elvis Presley",
+      "category": "music_artist"
+    },
+    {
+      "text": "Taylor Swift",
+      "category": "music_artist"
+    },
+    {
+      "text": "Queen",
+      "category": "music_artist"
+    },
+    {
+      "text": "Michael Jackson",
+      "category": "music_artist"
+    },
+    {
+      "text": "Eminem",
+      "category": "music_artist"
+    },
+    {
+      "text": "Led Zeppelin",
+      "category": "music_artist"
+    },
+    {
+      "text": "Adele",
+      "category": "music_artist"
+    },
+    {
+      "text": "Pink Floyd",
+      "category": "music_artist"
+    },
+    {
+      "text": "The Rolling Stones",
+      "category": "music_artist"
+    },
+    {
+      "text": "Ed Sheeran",
+      "category": "music_artist"
+    },
+    {
+      "text": "Prince",
+      "category": "music_artist"
+    },
+    {
+      "text": "Coldplay",
+      "category": "music_artist"
+    },
+    {
+      "text": "David Bowie",
+      "category": "music_artist"
+    },
+    {
+      "text": "Justin Bieber",
+      "category": "music_artist"
+    },
+    {
+      "text": "Bob Dylan",
+      "category": "music_artist"
+    },
+    {
+      "text": "Johnny Cash",
+      "category": "music_artist"
+    },
+    {
+      "text": "Ariana Grande",
+      "category": "music_artist"
+    },
+    {
+      "text": "Kanye West",
+      "category": "music_artist"
+    },
+    {
+      "text": "Lady Gaga",
+      "category": "music_artist"
+    },
+    {
+      "text": "The Weeknd",
+      "category": "music_artist"
+    },
+    {
+      "text": "U2",
+      "category": "music_artist"
+    },
+    {
+      "text": "Drake",
+      "category": "music_artist"
+    },
+    {
+      "text": "Bruno Mars",
+      "category": "music_artist"
+    },
+    {
+      "text": "Metallica",
+      "category": "music_artist"
+    },
+    {
+      "text": "Whitney Houston",
+      "category": "music_artist"
+    },
+    {
+      "text": "Billie Eilish",
+      "category": "music_artist"
+    },
+    {
+      "text": "Frank Sinatra",
+      "category": "music_artist"
+    },
+    {
+      "text": "Nirvana",
+      "category": "music_artist"
+    },
+    {
+      "text": "Bob Marley",
+      "category": "music_artist"
+    },
+    {
+      "text": "Alicia Keys",
+      "category": "music_artist"
+    },
+    {
+      "text": "Eagles",
+      "category": "music_artist"
+    },
+    {
+      "text": "Prince",
+      "category": "music_artist"
+    },
+    {
+      "text": "The Police",
+      "category": "music_artist"
+    },
+    {
+      "text": "Aerosmith",
+      "category": "music_artist"
+    },
+    {
+      "text": "Radiohead",
+      "category": "music_artist"
+    },
+    {
+      "text": "Madonna",
+      "category": "music_artist"
+    },
+    {
+      "text": "The Who",
+      "category": "music_artist"
+    },
+    {
+      "text": "Sia",
+      "category": "music_artist"
+    },
+    {
+      "text": "John Lennon",
+      "category": "music_artist"
+    },
+    {
+      "text": "Stevie Wonder",
+      "category": "music_artist"
+    },
+    {
+      "text": "Katy Perry",
+      "category": "music_artist"
+    },
+    {
+      "text": "Blur",
+      "category": "music_artist"
+    },
+    {
+      "text": "Red Hot Chili Peppers",
+      "category": "music_artist"
+    },
+    {
+      "text": "Black Sabbath",
+      "category": "music_artist"
+    },
+    {
+      "text": "Jay-Z",
+      "category": "music_artist"
+    },
+    {
+      "text": "Elton John",
+      "category": "music_artist"
+    }
+  ],
+  "animals": [
+    {
+      "text": "Lion",
+      "category": "animals"
+    },
+    {
+      "text": "Elephant",
+      "category": "animals"
+    },
+    {
+      "text": "Giraffe",
+      "category": "animals"
+    },
+    {
+      "text": "Tiger",
+      "category": "animals"
+    },
+    {
+      "text": "Penguin",
+      "category": "animals"
+    },
+    {
+      "text": "Kangaroo",
+      "category": "animals"
+    },
+    {
+      "text": "Dolphin",
+      "category": "animals"
+    },
+    {
+      "text": "Panda",
+      "category": "animals"
+    },
+    {
+      "text": "Gorilla",
+      "category": "animals"
+    },
+    {
+      "text": "Zebra",
+      "category": "animals"
+    },
+    {
+      "text": "Hippopotamus",
+      "category": "animals"
+    },
+    {
+      "text": "Koala",
+      "category": "animals"
+    },
+    {
+      "text": "Cheetah",
+      "category": "animals"
+    },
+    {
+      "text": "Hawk",
+      "category": "animals"
+    },
+    {
+      "text": "Ostrich",
+      "category": "animals"
+    },
+    {
+      "text": "Koala",
+      "category": "animals"
+    },
+    {
+      "text": "Penguin",
+      "category": "animals"
+    },
+    {
+      "text": "Raccoon",
+      "category": "animals"
+    },
+    {
+      "text": "Panda",
+      "category": "animals"
+    },
+    {
+      "text": "Flamingo",
+      "category": "animals"
+    },
+    {
+      "text": "Giraffe",
+      "category": "animals"
+    },
+    {
+      "text": "Jaguar",
+      "category": "animals"
+    },
+    {
+      "text": "Lemur",
+      "category": "animals"
+    },
+    {
+      "text": "Kangaroo",
+      "category": "animals"
+    },
+    {
+      "text": "Meerkat",
+      "category": "animals"
+    },
+    {
+      "text": "Ocelot",
+      "category": "animals"
+    },
+    {
+      "text": "Platypus",
+      "category": "animals"
+    },
+    {
+      "text": "Quokka",
+      "category": "animals"
+    },
+    {
+      "text": "Rhinoceros",
+      "category": "animals"
+    },
+    {
+      "text": "Sloth",
+      "category": "animals"
+    },
+    {
+      "text": "Tapir",
+      "category": "animals"
+    },
+    {
+      "text": "Uakari",
+      "category": "animals"
+    },
+    {
+      "text": "Vulture",
+      "category": "animals"
+    },
+    {
+      "text": "Walrus",
+      "category": "animals"
+    },
+    {
+      "text": "X-ray Tetra",
+      "category": "animals"
+    },
+    {
+      "text": "Yak",
+      "category": "animals"
+    },
+    {
+      "text": "Zorse",
+      "category": "animals"
+    },
+    {
+      "text": "Cheetah",
+      "category": "animals"
+    },
+    {
+      "text": "Ostrich",
+      "category": "animals"
+    },
+    {
+      "text": "Lion",
+      "category": "animals"
+    },
+    {
+      "text": "Kangaroo",
+      "category": "animals"
+    },
+    {
+      "text": "Giraffe",
+      "category": "animals"
+    },
+    {
+      "text": "Elephant",
+      "category": "animals"
+    },
+    {
+      "text": "Tiger",
+      "category": "animals"
+    },
+    {
+      "text": "Dolphin",
+      "category": "animals"
+    },
+    {
+      "text": "Panda",
+      "category": "animals"
+    },
+    {
+      "text": "Gorilla",
+      "category": "animals"
+    },
+    {
+      "text": "Zebra",
+      "category": "animals"
+    }
+  ],
+  "color": [
+    {
+      "text": "red",
+      "category": "colors"
+    },
+    {
+      "text": "blue",
+      "category": "colors"
+    },
+    {
+      "text": "green",
+      "category": "colors"
+    },
+    {
+      "text": "yellow",
+      "category": "colors"
+    },
+    {
+      "text": "orange",
+      "category": "colors"
+    },
+    {
+      "text": "purple",
+      "category": "colors"
+    },
+    {
+      "text": "pink",
+      "category": "colors"
+    },
+    {
+      "text": "brown",
+      "category": "colors"
+    },
+    {
+      "text": "black",
+      "category": "colors"
+    },
+    {
+      "text": "white",
+      "category": "colors"
+    },
+    {
+      "text": "gray",
+      "category": "colors"
+    },
+    {
+      "text": "silver",
+      "category": "colors"
+    },
+    {
+      "text": "gold",
+      "category": "colors"
+    },
+    {
+      "text": "cyan",
+      "category": "colors"
+    },
+    {
+      "text": "magenta",
+      "category": "colors"
+    },
+    {
+      "text": "lavender",
+      "category": "colors"
+    },
+    {
+      "text": "turquoise",
+      "category": "colors"
+    },
+    {
+      "text": "maroon",
+      "category": "colors"
+    },
+    {
+      "text": "teal",
+      "category": "colors"
+    },
+    {
+      "text": "indigo",
+      "category": "colors"
+    }
+  ],
+  "mythology": [
+    {
+      "text": "Zeus",
+      "category": "mythology"
+    },
+    {
+      "text": "Athena",
+      "category": "mythology"
+    },
+    {
+      "text": "Thor",
+      "category": "mythology"
+    },
+    {
+      "text": "Loki",
+      "category": "mythology"
+    },
+    {
+      "text": "Anubis",
+      "category": "mythology"
+    },
+    {
+      "text": "Valkyrie",
+      "category": "mythology"
+    },
+    {
+      "text": "Apollo",
+      "category": "mythology"
+    },
+    {
+      "text": "Minotaur",
+      "category": "mythology"
+    },
+    {
+      "text": "Freya",
+      "category": "mythology"
+    },
+    {
+      "text": "Hercules",
+      "category": "mythology"
+    },
+    {
+      "text": "Nymph",
+      "category": "mythology"
+    },
+    {
+      "text": "Poseidon",
+      "category": "mythology"
+    },
+    {
+      "text": "Medusa",
+      "category": "mythology"
+    },
+    {
+      "text": "Odin",
+      "category": "mythology"
+    },
+    {
+      "text": "Sphinx",
+      "category": "mythology"
+    },
+    {
+      "text": "Cerberus",
+      "category": "mythology"
+    },
+    {
+      "text": "Artemis",
+      "category": "mythology"
+    },
+    {
+      "text": "Kraken",
+      "category": "mythology"
+    },
+    {
+      "text": "Persephone",
+      "category": "mythology"
+    },
+    {
+      "text": "Vishnu",
+      "category": "mythology"
+    }
+  ],
+  "occupation": [
+    {
+      "text": "Doctor",
+      "category": "occupation"
+    },
+    {
+      "text": "Teacher",
+      "category": "occupation"
+    },
+    {
+      "text": "Engineer",
+      "category": "occupation"
+    },
+    {
+      "text": "Artist",
+      "category": "occupation"
+    },
+    {
+      "text": "Chef",
+      "category": "occupation"
+    },
+    {
+      "text": "Pilot",
+      "category": "occupation"
+    },
+    {
+      "text": "Lawyer",
+      "category": "occupation"
+    },
+    {
+      "text": "Writer",
+      "category": "occupation"
+    },
+    {
+      "text": "Firefighter",
+      "category": "occupation"
+    },
+    {
+      "text": "Police Officer",
+      "category": "occupation"
+    },
+    {
+      "text": "Actor",
+      "category": "occupation"
+    },
+    {
+      "text": "Nurse",
+      "category": "occupation"
+    },
+    {
+      "text": "Scientist",
+      "category": "occupation"
+    },
+    {
+      "text": "Electrician",
+      "category": "occupation"
+    },
+    {
+      "text": "Architect",
+      "category": "occupation"
+    },
+    {
+      "text": "Journalist",
+      "category": "occupation"
+    },
+    {
+      "text": "Dentist",
+      "category": "occupation"
+    },
+    {
+      "text": "Entrepreneur",
+      "category": "occupation"
+    },
+    {
+      "text": "Librarian",
+      "category": "occupation"
+    },
+    {
+      "text": "Photographer",
+      "category": "occupation"
+    }
+  ],
+  "transportations": [
+    {
+      "text": "Car",
+      "category": "transportation"
+    },
+    {
+      "text": "Bicycle",
+      "category": "transportation"
+    },
+    {
+      "text": "Bus",
+      "category": "transportation"
+    },
+    {
+      "text": "Train",
+      "category": "transportation"
+    },
+    {
+      "text": "Boat",
+      "category": "transportation"
+    },
+    {
+      "text": "Helicopter",
+      "category": "transportation"
+    },
+    {
+      "text": "Motorcycle",
+      "category": "transportation"
+    },
+    {
+      "text": "Subway",
+      "category": "transportation"
+    },
+    {
+      "text": "Airplane",
+      "category": "transportation"
+    },
+    {
+      "text": "Scooter",
+      "category": "transportation"
+    },
+    {
+      "text": "Truck",
+      "category": "transportation"
+    },
+    {
+      "text": "Skateboard",
+      "category": "transportation"
+    },
+    {
+      "text": "Ferry",
+      "category": "transportation"
+    },
+    {
+      "text": "Hot Air Balloon",
+      "category": "transportation"
+    },
+    {
+      "text": "Cruise Ship",
+      "category": "transportation"
+    },
+    {
+      "text": "Jet Ski",
+      "category": "transportation"
+    },
+    {
+      "text": "Taxi",
+      "category": "transportation"
+    },
+    {
+      "text": "Spaceship",
+      "category": "transportation"
+    },
+    {
+      "text": "Electric Scooter",
+      "category": "transportation"
+    },
+    {
+      "text": "Tram",
+      "category": "transportation"
+    }
+  ],
+  "clothing": [
+    {
+      "text": "T-shirt",
+      "category": "clothing"
+    },
+    {
+      "text": "Jeans",
+      "category": "clothing"
+    },
+    {
+      "text": "Dress",
+      "category": "clothing"
+    },
+    {
+      "text": "Sweater",
+      "category": "clothing"
+    },
+    {
+      "text": "Shorts",
+      "category": "clothing"
+    },
+    {
+      "text": "Jacket",
+      "category": "clothing"
+    },
+    {
+      "text": "Skirt",
+      "category": "clothing"
+    },
+    {
+      "text": "Hat",
+      "category": "clothing"
+    },
+    {
+      "text": "Socks",
+      "category": "clothing"
+    },
+    {
+      "text": "Gloves",
+      "category": "clothing"
+    },
+    {
+      "text": "Scarf",
+      "category": "clothing"
+    },
+    {
+      "text": "Pants",
+      "category": "clothing"
+    },
+    {
+      "text": "Shoes",
+      "category": "clothing"
+    },
+    {
+      "text": "Coat",
+      "category": "clothing"
+    },
+    {
+      "text": "Sunglasses",
+      "category": "clothing"
+    },
+    {
+      "text": "Belt",
+      "category": "clothing"
+    },
+    {
+      "text": "Pajamas",
+      "category": "clothing"
+    },
+    {
+      "text": "Swimsuit",
+      "category": "clothing"
+    },
+    {
+      "text": "Hoodie",
+      "category": "clothing"
+    },
+    {
+      "text": "Cap",
+      "category": "clothing"
+    }
+  ],
+  "fruits": [
+    {
+      "text": "Apple",
+      "category": "fruits"
+    },
+    {
+      "text": "Banana",
+      "category": "fruits"
+    },
+    {
+      "text": "Orange",
+      "category": "fruits"
+    },
+    {
+      "text": "Grapes",
+      "category": "fruits"
+    },
+    {
+      "text": "Strawberry",
+      "category": "fruits"
+    },
+    {
+      "text": "Watermelon",
+      "category": "fruits"
+    },
+    {
+      "text": "Pineapple",
+      "category": "fruits"
+    },
+    {
+      "text": "Mango",
+      "category": "fruits"
+    },
+    {
+      "text": "Kiwi",
+      "category": "fruits"
+    },
+    {
+      "text": "Peach",
+      "category": "fruits"
+    },
+    {
+      "text": "Pear",
+      "category": "fruits"
+    },
+    {
+      "text": "Cherry",
+      "category": "fruits"
+    },
+    {
+      "text": "Blueberry",
+      "category": "fruits"
+    },
+    {
+      "text": "Plum",
+      "category": "fruits"
+    },
+    {
+      "text": "Raspberry",
+      "category": "fruits"
+    },
+    {
+      "text": "Apricot",
+      "category": "fruits"
+    },
+    {
+      "text": "Cantaloupe",
+      "category": "fruits"
+    },
+    {
+      "text": "Blackberry",
+      "category": "fruits"
+    },
+    {
+      "text": "Pomegranate",
+      "category": "fruits"
+    },
+    {
+      "text": "Lemon",
+      "category": "fruits"
+    }
+  ],
+  "vegetables": [
+    {
+      "text": "Carrot",
+      "category": "vegetables"
+    },
+    {
+      "text": "Broccoli",
+      "category": "vegetables"
+    },
+    {
+      "text": "Tomato",
+      "category": "vegetables"
+    },
+    {
+      "text": "Cucumber",
+      "category": "vegetables"
+    },
+    {
+      "text": "Spinach",
+      "category": "vegetables"
+    },
+    {
+      "text": "Bell Pepper",
+      "category": "vegetables"
+    },
+    {
+      "text": "Potato",
+      "category": "vegetables"
+    },
+    {
+      "text": "Onion",
+      "category": "vegetables"
+    },
+    {
+      "text": "Garlic",
+      "category": "vegetables"
+    },
+    {
+      "text": "Cabbage",
+      "category": "vegetables"
+    },
+    {
+      "text": "Lettuce",
+      "category": "vegetables"
+    },
+    {
+      "text": "Zucchini",
+      "category": "vegetables"
+    },
+    {
+      "text": "Eggplant",
+      "category": "vegetables"
+    },
+    {
+      "text": "Mushroom",
+      "category": "vegetables"
+    },
+    {
+      "text": "Cauliflower",
+      "category": "vegetables"
+    },
+    {
+      "text": "Radish",
+      "category": "vegetables"
+    },
+    {
+      "text": "Asparagus",
+      "category": "vegetables"
+    },
+    {
+      "text": "Peas",
+      "category": "vegetables"
+    },
+    {
+      "text": "Corn",
+      "category": "vegetables"
+    },
+    {
+      "text": "Sweet Potato",
+      "category": "vegetables"
+    }
+  ],
+  "insects": [
+    {
+      "text": "Ant",
+      "category": "insects"
+    },
+    {
+      "text": "Butterfly",
+      "category": "insects"
+    },
+    {
+      "text": "Ladybug",
+      "category": "insects"
+    },
+    {
+      "text": "Dragonfly",
+      "category": "insects"
+    },
+    {
+      "text": "Bee",
+      "category": "insects"
+    },
+    {
+      "text": "Grasshopper",
+      "category": "insects"
+    },
+    {
+      "text": "Mosquito",
+      "category": "insects"
+    },
+    {
+      "text": "Beetle",
+      "category": "insects"
+    },
+    {
+      "text": "Caterpillar",
+      "category": "insects"
+    },
+    {
+      "text": "Spider",
+      "category": "insects"
+    },
+    {
+      "text": "Moth",
+      "category": "insects"
+    },
+    {
+      "text": "Firefly",
+      "category": "insects"
+    },
+    {
+      "text": "Cricket",
+      "category": "insects"
+    },
+    {
+      "text": "Centipede",
+      "category": "insects"
+    },
+    {
+      "text": "Praying Mantis",
+      "category": "insects"
+    },
+    {
+      "text": "Wasp",
+      "category": "insects"
+    },
+    {
+      "text": "Flea",
+      "category": "insects"
+    },
+    {
+      "text": "Roach",
+      "category": "insects"
+    },
+    {
+      "text": "Termite",
+      "category": "insects"
+    },
+    {
+      "text": "Fly",
+      "category": "insects"
+    }
+  ]
+}
