@@ -1,6 +1,40 @@
 
 import wordHelper from '../helpers/wordHelper';
 
+const getRandomWords = async (categories) => {
+    try {
+        const pipeline = [
+            {
+                $match: {
+                    category: { $in: categories }
+                }
+            },
+            {
+                $sample: { size: 3 }
+            }
+        ];
+
+        const result = await wordHelper.aggregate(pipeline);
+
+        return result;
+    } catch (error) {
+        console.error("Error fetching random words:", error);
+        throw error;
+    }
+};
+
+export async function getRandomWordsForCategories(input) {
+    try {
+        let wordCategories = input?.wordCategories;
+        let randomWords = await getRandomWords(wordCategories);
+
+        return randomWords;
+    } catch (e) {
+        console.log(e);
+        throw e
+    }
+}
+
 export async function addWordsFromCategoryList(input) {
     try {
         if(input && input.length !== 0) {

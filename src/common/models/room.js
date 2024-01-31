@@ -27,12 +27,16 @@ const roomSchema = new Schema({
                 default: false
             },
             avatar: String,
-            socket: String
+            socket: String,
+            roundSore: {
+                type: Number,
+                default: 0
+            }
         }
     ],
     currentRound: {
         type: Number,
-        default: 0,
+        default: 1,
     },
     totalRounds: {
         type: Number,
@@ -46,7 +50,21 @@ const roomSchema = new Schema({
         type: Number,
         default: 2,
     },
-    wordCategories: [String]
+    wordCategories: [String],
+    gameStarted: {
+        type: Boolean,
+        default: false
+    },
+    wordOfTheRound: {
+        type: String,
+        default: ""
+    },
+    roundGoingOn: {
+        type: Boolean,
+        default: false
+    },
+    numberOfPeopleGuessed: [String],
+    roundStartTime: Number
 })
 
 export default mongoose.model('room', roomSchema);

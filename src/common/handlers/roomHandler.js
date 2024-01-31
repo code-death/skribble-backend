@@ -1,8 +1,182 @@
 import roomHelper from '../helpers/roomHelper';
 import _ from "lodash";
-import {addNewSocketInfoHandler, checkAndAddSocketData, getSocketInfoByQueryHandler} from "./socketInfoHandler";
-import {ObjectId} from "mongodb";
-import mongoose from "mongoose";
+import {checkAndAddSocketData} from "./socketInfoHandler";
+import dayjs from "dayjs";
+import {MAX_POINTS} from "../constants/constant";
+
+function calculateRoundScore(roundStartTime, roundInterval) {
+    let current_time = dayjs().unix();
+    let time_diff = Math.abs(current_time - roundStartTime)
+    let score = 0;
+    if(time_diff < 5) {
+        score =  MAX_POINTS
+    } else {
+        score =  Math.trunc(Math.round((MAX_POINTS - (Math.pow(time_diff, 2)/16))))
+    }
+
+    if(score < 0) {
+        return 0
+    } else {
+        return score
+    }
+}
+
+export async function updateRoomDataOnRoundEnd(previousRoom) {
+    let roomData = {...previousRoom}
+    try {
+        if(roomData?.numberOfPeopleGuessed.length === roomData?.users.length) {
+            roomData.currentRound++;
+        }
+    } catch (e) {
+
+    }
+}
+
+export async function handleGuessWordOfTheRound(chat, roomId) {
+    try {
+        let filters = {};
+        filters.query = {
+            roomId: {$eq: roomId}
+        }
+
+        let updated_room = {};
+        updated_room.numberOfPeopleGuessed = [];
+
+        let previous_room = await roomHelper.getObjectByQuery(filters);
+
+        if(previous_room.roundGoingOn && !(previous_room.numberOfPeopleGuessed.includes(chat.userId) || previous_room.numberOfPeopleGuessed.includes(chat.userSocket))) {
+            let newChat = {};
+            newChat.userName = chat.userName;
+
+            if(previous_room.wordOfTheRound === chat.text) {
+                newChat.text = "guessed the word"
+                newChat.color = "#176c00"
+                updated_room.numberOfPeopleGuessed.push(chat?.userId || chat?.userSocket);
+            } else {
+                newChat.text = `guessed ${chat.text}`
+                newChat.color = "#20ad00"
+            }
+
+
+            updated_room.users = previous_room.users.map(user => {
+                let updatedUser = {...user};
+                if(updated_room.numberOfPeopleGuessed.includes(user._id.toString()) || updated_room.numberOfPeopleGuessed.includes(user.socket)) {
+                    updatedUser.roundSore = calculateRoundScore(previous_room.roundStartTime, previous_room.roundInterval);
+                    updatedUser.score += updatedUser.roundSore;
+                }
+
+                return updatedUser;
+            })
+
+            if(updated_room.numberOfPeopleGuessed.length === updated_room.users.length - 1) {
+                updated_room.roundGoingOn = false;
+                updated_room.currentRound = previous_room.currentRound + 1;
+                updated_room.numberOfPeopleGuessed = [];
+
+                const userWithHighestRoundScore = updated_room.users.reduce((prevUser, currentUser) => {
+                    return (prevUser.roundSore > currentUser.roundSore) ? prevUser : currentUser;
+                }, updated_room.users[0]);
+
+                updated_room.users = updated_room.users.map(user => {
+                    if(user.isDrawer) {
+                        return {
+                            ...user,
+                            score: user.score + userWithHighestRoundScore.roundSore,
+                            roundSore: userWithHighestRoundScore.roundSore,
+                        }
+                    } else {
+                        return user
+                    }
+                })
+            }
+
+
+            let res = await roomHelper.updateObjectById(previous_room._id, updated_room);
+
+            return {res, chat: newChat}
+        } else {
+            return {res: undefined, chat}
+        }
+    } catch (e) {
+        console.log(e);
+        throw e;
+    }
+}
+
+export async function handleUpdateWordOfTheRound(word, roomId) {
+    try {
+        let model = {};
+        model.wordOfTheRound = word;
+        model.roundGoingOn = true;
+        model.numberOfPeopleGuessed = [];
+        model.roundStartTime = dayjs().unix();
+
+        let filters = {};
+        filters.query = {
+            roomId: {$eq: roomId}
+        }
+
+        return await roomHelper.updateObjectByQuery(filters, model);
+    } catch (e) {
+        console.log(e)
+        throw e
+    }
+}
+
+export async function changeRoomDataForGameStart(roomInfo, roomId) {
+    try {
+        let model = {};
+        model.currentRound = roomInfo?.currentRound ? roomInfo.currentRound : 1;
+        model.totalRounds = roomInfo?.totalRounds ? roomInfo.totalRounds : 3;
+        model.roundInterval = roomInfo?.roundInterval ? roomInfo.roundInterval : 80;
+        model.hints = roomInfo?.hints ? roomInfo.hints : 2;
+        model.wordCategories = roomInfo?.wordCategories ? roomInfo.wordCategories : ['movies/tv_shows', 'color', 'mythology'];
+        model.gameStarted = true;
+
+        let filters = {};
+        filters.query = {
+            roomId: {$eq: roomId}
+        };
+
+        let previous_room_data = await roomHelper.getObjectByQuery(filters);
+
+        let previous_drawer ;
+
+        previous_room_data.users.forEach((user, index) => {
+            if(user.isDrawer) {
+                previous_drawer = index;
+            }
+        })
+
+        if(_.isUndefined(previous_drawer) || _.isNull(previous_drawer)) {
+            previous_drawer = previous_room_data.users.length;
+        }
+
+        model.users = previous_room_data?.users.map((user, index) => {
+            if(index === previous_drawer - 1) {
+                model.drawer = user;
+                return {
+                    ...user,
+                    isDrawer: true
+                }
+            } else {
+                return {
+                    ...user,
+                    isDrawer: false,
+                }
+            }
+        })
+
+        let res = await roomHelper.updateObjectById(previous_room_data._id, model);
+
+        return {res, drawer: model.drawer}
+
+
+    } catch (e) {
+        console.log(e);
+        throw e
+    }
+}
 
 export async function leaveRoomWithSocketId(socket, roomId) {
     try {

@@ -66,16 +66,16 @@ class BaseHelper {
         }
     }
 
-    async updateObjectByQuery(query, updateObject) {
+    async updateObjectByQuery(filters, updateObject) {
         try {
-            const object = await this.model.findOne(query);
+            const object = await this.model.findOneAndUpdate(filters.query, updateObject, {
+                new: true
+            });
             if (!object) {
-                throw `query oject not found`;
+                throw `query object not found`;
+            } else {
+                return object
             }
-            for (let prop in updateObject) {
-                object[prop] = updateObject[prop];
-            }
-            return await object.save();
         } catch (error) {
             throw error;
         }

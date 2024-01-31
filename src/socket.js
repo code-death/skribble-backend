@@ -1,11 +1,13 @@
 import {
-    createNewRoomHandler,
+    changeRoomDataForGameStart,
+    createNewRoomHandler, handleGuessWordOfTheRound, handleUpdateWordOfTheRound,
     joinUserToRoomHandler,
     leaveRoomWithSocketId,
     removeUserFromTheGame
 } from "./common/handlers/roomHandler";
 import {getRoomsToLeaveForaSocket, getSocketInfoByQueryHandler} from "./common/handlers/socketInfoHandler";
 import _ from "lodash";
+import {getRandomWordsForCategories} from "./common/handlers/wordHandler";
 
 export default function handleSocketEvents(socket, io) {
     socket.on('create-room', async (data, roomId) => {
@@ -67,15 +69,22 @@ export default function handleSocketEvents(socket, io) {
     });
 
 
-    socket.on('guess-word', (chat, roomId) => {
+    socket.on('guess-word', async (chatInput, roomId) => {
         if (roomId !== '') {
+            let {res, chat} = await handleGuessWordOfTheRound(chatInput, roomId);
+            if(res && !res.roundGoingOn) {
+                io.to(roomId).emit('round-ended', res);
+            }
             io.to(roomId).emit('receive_message', chat);
         }
     });
 
-    socket.on('start-game', (data, roomId) => {
+    socket.on('start-game', async (data, roomId) => {
         if (roomId !== '') {
-
+            let {res, drawer} = await changeRoomDataForGameStart(data, roomId);
+            let word_options = await getRandomWordsForCategories(res)
+            io.to(roomId).emit('game-started', res);
+            io.to(drawer.socket).emit('choose-word', word_options);
         }
     })
 
@@ -85,9 +94,10 @@ export default function handleSocketEvents(socket, io) {
         }
     })
 
-    socket.on('start-round', (data, roomId) => {
+    socket.on('round-start', async (data, roomId) => {
         if (roomId !== '') {
-
+            let roomInfo = await handleUpdateWordOfTheRound(data, roomId)
+            io.to(roomId).emit('round-started', data, roomInfo);
         }
     })
 
