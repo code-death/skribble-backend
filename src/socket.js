@@ -9,15 +9,11 @@ import {
     handleUpdateWordOfTheRound,
     joinUserToRoomHandler,
     leaveRoomWithSocketId,
-    removeUserFromTheGame,
-    updateRoomDataOnRoundEnd,
     updateTurnNumber
 } from "./common/handlers/roomHandler";
-import {getRoomsToLeaveForaSocket, getSocketInfoByQueryHandler} from "./common/handlers/socketInfoHandler";
+import {getRoomsToLeaveForaSocket} from "./common/handlers/socketInfoHandler";
 import _ from "lodash";
-import {getRandomWords, getRandomWordsForCategories} from "./common/handlers/wordHandler";
-import room from "./common/models/room";
-import {aws4} from "mongodb/src/deps";
+import {getRandomWordsForCategories} from "./common/handlers/wordHandler";
 
 export default function handleSocketEvents(socket, io) {
     socket.on('create-room', async (data, roomId) => {
