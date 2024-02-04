@@ -1,7 +1,7 @@
 
 import wordHelper from '../helpers/wordHelper';
 
-const getRandomWords = async (categories) => {
+export const getRandomWords = async (categories) => {
     try {
         const pipeline = [
             {

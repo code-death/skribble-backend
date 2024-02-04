@@ -28,7 +28,7 @@ const roomSchema = new Schema({
             },
             avatar: String,
             socket: String,
-            roundSore: {
+            turnScore: {
                 type: Number,
                 default: 0
             }
@@ -55,6 +55,10 @@ const roomSchema = new Schema({
         type: Boolean,
         default: false
     },
+    gameEnded: {
+        type: Boolean,
+        default: false
+    },
     wordOfTheRound: {
         type: String,
         default: ""
@@ -64,7 +68,15 @@ const roomSchema = new Schema({
         default: false
     },
     numberOfPeopleGuessed: [String],
-    roundStartTime: Number
+    turnStartTime: Number,
+    turnGoingOn: {
+        type: Boolean,
+        default: false
+    },
+    turnNumber: {
+        type: Number,
+        default: 1,
+    }
 })
 
 export default mongoose.model('room', roomSchema);
